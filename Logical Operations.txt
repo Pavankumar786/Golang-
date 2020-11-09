@@ -1,0 +1,78 @@
+Example 1:
+package main
+import "fmt"
+func main() {
+var a int =20
+var b int =10
+var c int =25
+var flag bool = false
+var result bool
+fmt.Println("Go Logical Operators")
+result = (a > b) && (a > c)
+fmt.Printf("(a>b) && (a>c) : %t\n",result)
+result = (a > b) || (a > c)
+fmt.Printf("(a>b) || (a>c) :%t\n",result)
+ result = !flag
+fmt.Printf("!flag :%t\n",result)
+}
+
+Output:
+Go Logical Operators
+(a>b) && (a>c) : false
+(a>b) || (a>c) :true
+!flag :true
+
+Example2:
+package main 
+import "fmt"
+func main() { 
+var p int = 23
+ var q int = 60
+ if(p!=q && p<=q){  
+ fmt.Println("True") 
+ } 
+ if(p!=q || p<=q){  
+ fmt.Println("True") 
+ } 
+ if(!(p==q)){  
+ fmt.Println("True") 
+ } 
+ } 
+
+Output:
+True
+True
+True
+
+Example 3:
+package main
+import "fmt"
+func main() {
+var a bool = true
+var b bool = false
+if ( a && b ) {
+fmt.Printf("Line 1 - Condition is true\n" )
+   }
+if ( a || b ) {
+fmt.Printf("Line 2 - Condition is true\n" )
+   }
+a = false
+b = true
+if ( a && b ) {
+fmt.Printf("Line 3 - Condition is true\n" )
+   } 
+else 
+{
+fmt.Printf("Line 3 - Condition is not true\n" )
+   }
+if ( !(a && b) ) {
+fmt.Printf("Line 4 - Condition is true\n" )
+ }
+}
+
+Output:
+
+Line 2 - Condition is true
+Line 3 - Condition is not true
+Line 4 - Condition is true
+
