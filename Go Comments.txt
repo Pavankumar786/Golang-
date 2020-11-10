@@ -1,0 +1,45 @@
+Example1:single line comments
+package main  
+import "fmt"  
+func main() {  
+   // It Prints HI..This is Pavan
+   fmt.Println("HI..This is Pavan")  
+}
+Output:
+HI..This is Pavan
+
+Example 2:Double line comments
+package main  
+import "fmt"  
+func main() {  
+/* Hii..Welcome to Kloudone Technologies. */ 
+fmt.Println("Hii..Welcome to Kloudone Technologies.")  
+
+
+Output:
+Hii..Welcome to Kloudone Technologies.
+
+
+Example3:
+package main  
+import "fmt"  
+func main() {  
+   // It prints Hello World single line comments
+   fmt.Println("Hello, World! single line comments")  
+}
+
+Output:
+Hello, World! single line comments
+
+Example 4:Double line comments
+
+package main  
+import "fmt"  
+func main() {  
+/* It prints Hello World! Double line comments */ 
+fmt.Println("Hello, World! Double line comments")  
+}
+
+Output:
+Hello, World! Double line comments
+
