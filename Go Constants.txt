@@ -1,0 +1,65 @@
+Example 1:
+package main
+
+import "fmt"
+
+func main() {
+   var x float64
+   x = 20.0
+   fmt.Println(x)
+   fmt.Printf("x is of type %T\n", x)
+}
+
+Output:
+Hello World
+
+Example 2:
+package main
+import "fmt"
+func main() {
+const LENGTH int = 10
+const WIDTH int = 5   
+var area int
+area = LENGTH * WIDTH
+fmt.Printf("value of area : %d", area)   
+}
+Output:
+value of area : 50
+
+Example 3:
+package main
+import "fmt"
+func main()
+const x int =25
+const y int =78
+var z=x+y
+fmt.printf("value of x is :%d,z)
+}
+
+Output:value of z is 103
+
+Example 4:
+package main
+import "fmt"
+func main() {
+const length int=10
+const width int=20
+var area int
+fmt.Printf("Value of area is:%d",area)
+}
+
+Output:
+Value of area is:200
+
+Example 5:
+package main
+import "fmt"
+func main() {
+const LENGTH int = 10
+const WIDTH int = 5   
+var area int
+area = LENGTH * WIDTH
+fmt.Printf("value of area : %d", area)   
+}
+Output:
+value of area : 500
