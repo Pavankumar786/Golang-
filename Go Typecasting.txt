@@ -1,0 +1,41 @@
+Example1:
+package main
+import "fmt"
+func main() {
+var sum int = 17
+var count int = 5
+var mean float32
+mean = float32(sum)/float32(count)
+fmt.Printf("Value of mean : %f\n",mean)
+}
+Output:
+Value of mean : 3.400000
+
+
+Example2:
+package main
+import "fmt"
+func main() {
+var sum int = 96
+var count int = 86
+var mean float32
+mean = float32(sum)/float32(count)
+fmt.Printf("Value of mean : %f\n",mean)
+}
+
+Output:
+Value of mean is: 1.116279
+
+
+Example 3:
+package main
+import "fmt"
+func main() {
+var sum int = 8965
+var count int = 663
+var mean float32
+mean = float32(sum)/float32(count)
+fmt.Printf("Value of mean : %f\n",mean)
+}
+Output:
+Value of mean : 13.521871
